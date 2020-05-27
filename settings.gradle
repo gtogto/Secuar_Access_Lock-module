@@ -1,0 +1,4 @@
+
+
+
+include 'Application', ':httpclient-4.5.10', ':httpcore-4.4.12'

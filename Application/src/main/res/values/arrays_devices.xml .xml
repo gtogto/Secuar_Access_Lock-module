@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="devices">
+        <item>1. BC-01 </item>
+        <item>2. BC-02 </item>
+        <item>3. BC-03 </item>
+    </string-array>
+</resources>
