@@ -130,7 +130,6 @@ public class MainActivity extends SampleActivityBase {
             transaction.commit();
         }
 
-
         try {
             socket = new DatagramSocket(5000);
             serverAddr = InetAddress.getByName(sIP);
@@ -144,6 +143,7 @@ public class MainActivity extends SampleActivityBase {
 
         tAccessCode_1 = (TextView) findViewById(R.id.txtAccessCode_1);
         tAccessCode_2 = (TextView) findViewById(R.id.txtAccessCode_2);
+
         tAccessCode_2.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
