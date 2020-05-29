@@ -225,7 +225,7 @@ public class MainActivity extends SampleActivityBase {
             WasService service = retrofit.create(WasService.class);
             Call<JsonObject> request = service.getWasData(deviceNo, st);
 
-            request.enqueue(new Callback<JsonObject>() {
+            request.enqueue(new Callback<JsonObject>() {        //request.enqueue(new Callback<JsonObject>
                 @Override
                 public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
                     if (response.isSuccessful()) {

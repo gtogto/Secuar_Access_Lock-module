@@ -1,9 +1,8 @@
 
-Android BluetoothChat Sample
+Android BLE for dApp services
 ===================================
 
-This sample shows how to implement two-way text chat over Bluetooth between two Android devices, using
-all the fundamental Bluetooth API capabilities.
+This codes shows ...
 
 Introduction
 ------------
@@ -39,7 +38,7 @@ Pre-requisites
 Screenshots
 -------------
 
-<img src="screenshots/1-launch.png" height="400" alt="Screenshot"/> <img src="screenshots/2-devices.png" height="400" alt="Screenshot"/> <img src="screenshots/3-chat.png" height="400" alt="Screenshot"/> 
+<img src="screenshots/main.png" height="400" alt="Screenshot"/> 
 
 Getting Started
 ---------------
@@ -49,6 +48,8 @@ This sample uses the Gradle build system. To build this project, use the
 
 Support
 -------
+Volley API
+- implementation 'com.android.volley:volley:1.0.0'
 
 - Stack Overflow: http://stackoverflow.com/questions/tagged/android
 
