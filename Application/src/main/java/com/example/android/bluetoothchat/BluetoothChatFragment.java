@@ -88,7 +88,8 @@ public class BluetoothChatFragment extends Fragment {
 
 
     //////////////////////////////////////////////////////////////////    // Local Bluetooth adapter
-    String autoConnectDev = "HC-06";
+    //String autoConnectDev = "HC-06";
+    String autoConnectDev = "JDY-08";
     //////
 
 

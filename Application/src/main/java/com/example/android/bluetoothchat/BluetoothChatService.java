@@ -46,11 +46,12 @@ public class BluetoothChatService {
     private static final String NAME_SECURE = "BluetoothChatSecure";
 
     // Unique UUID for this application
-    private static final UUID MY_UUID =
-            UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
-
     /*private static final UUID MY_UUID =
-            UUID.fromString("0000FFE1-0000-1000-8000-00805F9B34FB");*/  // JDY BLE
+            UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");*/
+
+    private static final UUID MY_UUID =
+            UUID.fromString("0000FFE1-0000-1000-8000-00805F9B34FB");  // JDY BLE
+
     //"0000FFE1-0000-1000-8000-00805F9B34FB"
     // Member fields
     private final BluetoothAdapter mAdapter;
@@ -203,6 +204,7 @@ public class BluetoothChatService {
     /**
      * Stop all threads
      */
+
     public synchronized void stop() {
         Log.d(TAG, "stop");
 
