@@ -50,7 +50,7 @@ public class BluetoothChatService {
             UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");*/
 
     private static final UUID MY_UUID =
-            UUID.fromString("0000FFE1-0000-1000-8000-00805F9B34FB");  // JDY BLE
+            UUID.fromString("0000FFE1-0000-1000-8000-00805F9B34FB");  // KETILAB-01 BLE
 
     //"0000FFE1-0000-1000-8000-00805F9B34FB"
     // Member fields
